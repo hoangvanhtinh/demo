@@ -7,7 +7,7 @@
     {
      
       "source": "/RST/:path*",
-      "destination": "https://demo-tinhlatao.vercel.app/"
+      "destination": "/2026/index.html"
     }
   ]
 }
