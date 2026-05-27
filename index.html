@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>결과</title>
   <link rel="icon" type="image/png" href="/logo.png">
+  <base href="/2026/">
 
   <style>
     body {
@@ -477,7 +478,7 @@
 
       // URL duy nhất
       const rstURL =
-        "/2026/RST/RST_Controller2.asp?part=main&p=" + token;
+        "./RST/RST_Controller2.asp?part=main&p=" + token;
 
       // chỉ hiển thị 1 URL này
       history.replaceState({}, "", rstURL);
@@ -538,23 +539,13 @@
         screen4.style.display = "block";
       }, 800);
     }
-    function go1() {
-      loader.style.display = "flex";
+   function go1() {
+  loader.style.display = "flex";
 
-      setTimeout(() => {
-        loader.style.display = "none";
-
-        screen3.style.display = "none";
-        screen1.style.display = "block";
-      }, 800);
-    }
-    function go1() {
-      loader.style.display = "flex";
-
-      setTimeout(() => {
-        loader.style.display = "none";
-      }, 800);
-    }
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 800);
+}
 
     document.addEventListener("DOMContentLoaded", function () {
       setTimeout(function () {
