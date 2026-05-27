@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+     {
+      "source": "/r/:path*",
+      "destination": "/"
+    },
+    {
+     
+      "source": "/RST/:path*",
+      "destination": "https://demo-tinhlatao.vercel.app/"
+    }
+  ]
+}
